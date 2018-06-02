@@ -8,7 +8,36 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Your Name</copyright>
     <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>Biography My name is Shubham Sharma and I am currently a final year student pursuing Dual-Degree(B.Tech-M.Tech) in Computer Science and Engineering at Indian Institute of Technology, Kanpur, India. My research is primarily on Knowledge Compilation, AI and Cyber Security. During my curriculum I have done various projects and courses on these topics and I am fascinated by their research prospects. Currently I am working with Dr. Kuldeep Meel and Dr.</description>
+    </item>
+    
+    <item>
+      <title>Technical Reports</title>
+      <link>/home/reports/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/home/reports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

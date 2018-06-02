@@ -5,8 +5,8 @@
     
     <url>
     
-      <loc>/publication/blockdb/</loc>
-      <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+      <loc>/post/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -14,18 +14,8 @@
     
     <url>
     
-      <loc>/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/4/</loc>
-      <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
+      <loc>/talk/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -43,7 +33,6 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2017-12-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
