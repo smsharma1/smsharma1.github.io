@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WAPS</title>
+      <link>/publication/waps/</link>
+      <pubDate>Thu, 14 Mar 2019 01:22:13 +0530</pubDate>
+      
+      <guid>/publication/waps/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Knowledge Compilation meets Uniform Sampling </title>
@@ -18,6 +27,15 @@
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/kus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/publication/verity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/verity/</guid>
       <description></description>
     </item>
     
