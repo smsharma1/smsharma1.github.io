@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content="This blogpost is based on our (Myself, Rahul, Subhajit and Kuldeep) paper that got published in the procedings of International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 2018. The code is available here. The primary contribution of this work is marrying knowledge compilation with uniform sampling to design a new uniform sampler KUS. The main result is that KUS to solve more number of benchmarks than existing state-of-the art uniform and almost-uniform samplers beating them by orders of magnitude in terms of runtime: Uniform Sampling">
+  <meta name="description" content="This blogpost is based on our (Myself, Rahul, Subhajit and Kuldeep) paper that got published in the procedings of International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 2018. The code is available here. The primary contribution of this work is marrying knowledge compilation with uniform sampling to design a new uniform sampler KUS. The main result is that KUS is able to solve more number of benchmarks than existing state-of-the art uniform and almost-uniform samplers beating them by orders of magnitude in terms of runtime: Uniform Sampling">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/kus/">
@@ -93,7 +93,7 @@
   <meta property="og:site_name" content="Academic">
   <meta property="og:url" content="/post/kus/">
   <meta property="og:title" content="Knowledge Compilation meets Uniform Sampling | Academic">
-  <meta property="og:description" content="This blogpost is based on our (Myself, Rahul, Subhajit and Kuldeep) paper that got published in the procedings of International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 2018. The code is available here. The primary contribution of this work is marrying knowledge compilation with uniform sampling to design a new uniform sampler KUS. The main result is that KUS to solve more number of benchmarks than existing state-of-the art uniform and almost-uniform samplers beating them by orders of magnitude in terms of runtime: Uniform Sampling">
+  <meta property="og:description" content="This blogpost is based on our (Myself, Rahul, Subhajit and Kuldeep) paper that got published in the procedings of International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 2018. The code is available here. The primary contribution of this work is marrying knowledge compilation with uniform sampling to design a new uniform sampler KUS. The main result is that KUS is able to solve more number of benchmarks than existing state-of-the art uniform and almost-uniform samplers beating them by orders of magnitude in terms of runtime: Uniform Sampling">
   
   
     
@@ -460,16 +460,16 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>This blogpost is based on our (<a href="https://smsharma1.github.io/" target="_blank">Myself</a>, <a href="https://rahulguptakota.github.io/" target="_blank">Rahul</a>, <a href="https://www.cse.iitk.ac.in/users/subhajit/" target="_blank">Subhajit</a> and <a href="https://www.comp.nus.edu.sg/~meel/" target="_blank">Kuldeep</a>) <a href="https://www.comp.nus.edu.sg/~meel/Papers/lpar18.pdf" target="_blank">paper</a> that got published in the procedings of International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 2018. The code is available <a href="https://github.com/meelgroup/KUS" target="_blank">here</a>. The primary contribution of this work is marrying knowledge compilation with uniform sampling to design a new uniform sampler KUS. The main result is that KUS to solve more number of benchmarks than existing state-of-the art uniform and almost-uniform samplers beating them by orders of magnitude in terms of runtime:
+      <p>This blogpost is based on our (<a href="https://smsharma1.github.io/" target="_blank">Myself</a>, <a href="https://rahulguptakota.github.io/" target="_blank">Rahul</a>, <a href="https://www.cse.iitk.ac.in/users/subhajit/" target="_blank">Subhajit</a> and <a href="https://www.comp.nus.edu.sg/~meel/" target="_blank">Kuldeep</a>) <a href="https://www.comp.nus.edu.sg/~meel/Papers/lpar18.pdf" target="_blank">paper</a> that got published in the procedings of International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 2018. The code is available <a href="https://github.com/meelgroup/KUS" target="_blank">here</a>. The primary contribution of this work is marrying knowledge compilation with uniform sampling to design a new uniform sampler KUS. The main result is that KUS is able to solve more number of benchmarks than existing state-of-the art uniform and almost-uniform samplers beating them by orders of magnitude in terms of runtime:
 <img src="cactus.png" alt="alt text" /></p>
 
 <p><h3>Uniform Sampling</h3></p>
 
 <hr />
 
-<p>Given a boolean formula $\phi$, the idea of Uniform Sampling is to generate samples from the set of solutions of $F$ called $R_F$ using a generator $\mathcal{G}$ that guarantees:
+<p>Given a boolean formula $F$, the idea of uniform sampling is to generate samples from the set of solutions of $F$ called $R_F$ using a generator $\mathcal{G}$ that guarantees:
 $$\forall y \in R_F, \mathsf{Pr}\left[\mathcal{G}(F) = y\right] = \frac{1}{|R_F|},$$
-Uniform sampling is a fundamental problem in computer science with wide range of applications ranging from Bayesian analysis to software engineering and programming languages. Jerrum, Valiant, and Vazirani observed deep relationship between model counting and uniform sampling. In particular, they showed that given access to an exact model counter, one could design a uniform generator which requires only polynomially many queries to the exact model counter. On the other hand, knowledge compilation has been emerged as a vital task wherein a logical theory is compiled into a form that allows performing probabilistic inference in polynomial time. It is well known that there is a deep connection between probabilistic inference and model counting. In this context, one wonders if the recent advances in knowledge compilation can be harnessed to design a scalable uniform sampler. The primary contribution of this work is marrying knowledge compilation with uniform sampling to design a new algorithm, KUS, that performs uniform sampling, outperforming current state-of-the-art approximately uniform and uniform samplers.</p>
+Uniform sampling is a fundamental problem in computer science with wide range of applications ranging from bayesian analysis to software engineering and programming languages. Model counting is a task to compute the number of solutions of $F$. Jerrum, Valiant, and Vazirani observed deep relationship between model counting and uniform sampling. In particular, they showed that given access to an exact model counter, one can design a uniform generator which requires only polynomially many queries to the exact model counter. On the other hand, knowledge compilation has been emerged as a vital task wherein a logical theory is compiled into a form that allows performing probabilistic inference in polynomial time. It is well known that there is a deep connection between probabilistic inference and model counting. In this context, one wonders if the recent advances in knowledge compilation can be harnessed to design a scalable uniform sampler. The primary contribution of this work is marrying knowledge compilation with uniform sampling to design a new algorithm, KUS, that performs uniform sampling, outperforming current state-of-the-art approximately uniform and uniform samplers.</p>
 
 <p><h3> Knowledge Compilation and d-DNNF representation</h3></p>
 
@@ -498,7 +498,7 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
 <hr />
 
 <ul>
-<li>In this word, we have proposed a new approach for uniform sampling that builds on breakthrough progress in knowledge compilation</li>
+<li>In this work, we have proposed a new approach for uniform sampling that builds on breakthrough progress in knowledge compilation</li>
 <li>Experimentally we have demonstrated that KUS outperformed state-of-the-art uniform and almost-uniform samplers</li>
 <li>We believe that the success of KUS will motivate researchers in verification and knowledge compilation communities to investigate a broader set of logical forms amenable to efficient uniform generation</li>
 </ul>
