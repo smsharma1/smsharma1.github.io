@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 2.4.0">
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.55.2" />
   <meta name="author" content="Shubham Sharma">
 
   
@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Integrity and security of the data in database systems are typically maintained with access control policies and firewalls. However, insider attacks -- where someone with an intimate knowledge of the system and administrative privileges tampers with the data -- pose a unique challenge. Measures like append only logging prove to be insufficient because an attacker with administrative privileges can alter logs and login records to eliminate the trace of attack, thus making insider attacks hard to detect. In this paper, we propose Verity -- first of a kind system to the best of our knowledge. Verity serves as a dataless framework by which any blockchain network can be used to store fixed-length metadata about tuples from any SQL database, without complete migration of the database. Verity uses a formalism for parsing SQL queries and query results to check the respective tuples&#39; integrity using blockchains to detect insider attacks. We have implemented our technique using Hyperledger Fabric, Composer REST API, and SQLite database. Using TPC-H data and SQL queries of varying complexity and types, our experiments demonstrate that any overhead of integrity checking remains constant per tuple in a query&#39;s results, and scales linearly.">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/verity/">
@@ -92,23 +92,24 @@
   
   <meta property="og:site_name" content="Academic">
   <meta property="og:url" content="/publication/verity/">
-  <meta property="og:title" content=" | Academic">
-  <meta property="og:description" content="">
+  <meta property="og:title" content="Verity: Blockchains to Detect Insider Attacks in DBMS | Academic">
+  <meta property="og:description" content="Integrity and security of the data in database systems are typically maintained with access control policies and firewalls. However, insider attacks -- where someone with an intimate knowledge of the system and administrative privileges tampers with the data -- pose a unique challenge. Measures like append only logging prove to be insufficient because an attacker with administrative privileges can alter logs and login records to eliminate the trace of attack, thus making insider attacks hard to detect. In this paper, we propose Verity -- first of a kind system to the best of our knowledge. Verity serves as a dataless framework by which any blockchain network can be used to store fixed-length metadata about tuples from any SQL database, without complete migration of the database. Verity uses a formalism for parsing SQL queries and query results to check the respective tuples&#39; integrity using blockchains to detect insider attacks. We have implemented our technique using Hyperledger Fabric, Composer REST API, and SQLite database. Using TPC-H data and SQL queries of varying complexity and types, our experiments demonstrate that any overhead of integrity checking remains constant per tuple in a query&#39;s results, and scales linearly.">
   
   
     
   <meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2019-01-02T00:00:00&#43;00:00">
   
+  <meta property="article:modified_time" content="2019-01-02T00:00:00&#43;00:00">
   
+
   
 
   
 
-  
-
-  <title> | Academic</title>
+  <title>Verity: Blockchains to Detect Insider Attacks in DBMS | Academic</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
@@ -199,9 +200,9 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#projects">
+          <a class="nav-link" href="/#talks">
             
-            <span>Projects</span>
+            <span>Talks</span>
             
           </a>
         </li>
@@ -260,7 +261,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name"></h1>
+  <h1 itemprop="name">Verity: Blockchains to Detect Insider Attacks in DBMS</h1>
 
   
 
@@ -271,16 +272,37 @@
 
   
   
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Shubham Sharma">
-  </span>
+  
+  <div>
+    
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Shubham S. Srivastava</span>
+    </span>, 
+    
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Medha Atre</span>
+    </span>, 
+    
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">**Shubham Sharma**</span>
+    </span>, 
+    
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Rahul Gupta</span>
+    </span>, 
+    
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Sandeep K. Shukla</span>
+    </span>
+    
+  </div>
   
 
   <span class="article-date">
     
-    <meta content="" itemprop="datePublished">
-    <time datetime="" itemprop="dateModified">
-      Jan 1, 0001
+    <meta content="2019-01-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-01-02 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jan 2, 2019
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -305,7 +327,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=&amp;url=%2fpublication%2fverity%2f"
+         href="https://twitter.com/intent/tweet?text=Verity%3a%20Blockchains%20to%20Detect%20Insider%20Attacks%20in%20DBMS&amp;url=%2fpublication%2fverity%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -319,21 +341,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fverity%2f&amp;title="
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fverity%2f&amp;title=Verity%3a%20Blockchains%20to%20Detect%20Insider%20Attacks%20in%20DBMS"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fverity%2f&amp;title="
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fverity%2f&amp;title=Verity%3a%20Blockchains%20to%20Detect%20Insider%20Attacks%20in%20DBMS"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=&amp;body=%2fpublication%2fverity%2f">
+         href="mailto:?subject=Verity%3a%20Blockchains%20to%20Detect%20Insider%20Attacks%20in%20DBMS&amp;body=%2fpublication%2fverity%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -353,9 +375,42 @@
   <div class="article-container">
 
     
-
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Integrity and security of the data in database systems are typically maintained with access control policies and firewalls. However, insider attacks &ndash; where someone with an intimate knowledge of the system and administrative privileges tampers with the data &ndash; pose a unique challenge. Measures like append only logging prove to be insufficient because an attacker with administrative privileges can alter logs and login records to eliminate the trace of attack, thus making insider attacks hard to detect. In this paper, we propose Verity &ndash; first of a kind system to the best of our knowledge. Verity serves as a dataless framework by which any blockchain network can be used to store fixed-length metadata about tuples from any SQL database, without complete migration of the database. Verity uses a formalism for parsing SQL queries and query results to check the respective tuples&rsquo; integrity using blockchains to detect insider attacks. We have implemented our technique using Hyperledger Fabric, Composer REST API, and SQLite database. Using TPC-H data and SQL queries of varying complexity and types, our experiments demonstrate that any overhead of integrity checking remains constant per tuple in a query&rsquo;s results, and scales linearly.</p>
     
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#0">
+              Uncategorized
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">arXiv</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     <div class="row">
@@ -364,7 +419,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            January, 0001
+            January, 2019
           </div>
         </div>
       </div>
@@ -389,7 +444,13 @@
 
 
   
+    
+  
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/1901.00228.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 

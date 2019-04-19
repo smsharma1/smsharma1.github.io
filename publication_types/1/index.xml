@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>𝖶𝖠𝖯𝖲 : Weighted and Projected Sampling</title>
+      <link>/publication/waps/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/waps/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Knowledge Compilation meets Uniform Sampling </title>

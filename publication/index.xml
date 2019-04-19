@@ -13,11 +13,20 @@
     
     
     <item>
-      <title>WAPS</title>
+      <title>𝖶𝖠𝖯𝖲 : Weighted and Projected Sampling</title>
       <link>/publication/waps/</link>
-      <pubDate>Thu, 14 Mar 2019 01:22:13 +0530</pubDate>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/publication/waps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verity: Blockchains to Detect Insider Attacks in DBMS</title>
+      <link>/publication/verity/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/verity/</guid>
       <description></description>
     </item>
     
@@ -31,11 +40,11 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/publication/verity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Detecting Insider Attacks on Databases using Blockchains</title>
+      <link>/publication/db-blockchain/</link>
+      <pubDate>Sun, 17 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/verity/</guid>
+      <guid>/publication/db-blockchain/</guid>
       <description></description>
     </item>
     
